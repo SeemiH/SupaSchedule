@@ -1,1 +1,16 @@
-asd
+.list-horizontal li {
+	display:inline-block;
+  list-style-type: none;
+}
+.list-horizontal li:before {
+	content: '\00a0\2022\00a0\00a0'!important;
+	color:#999!important;
+	color:rgba(0,0,0,0.5)!important;
+	font-size:11px;
+}
+.list-horizontal li:first-child:before {
+	content: ''!important;
+}
+body {
+  background-image: url("https://raw.githubusercontent.com/SeemiH/SupaSchedule/master/birch3.jpg");
+}
