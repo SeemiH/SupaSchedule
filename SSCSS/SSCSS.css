@@ -14,3 +14,17 @@
 body {
   background-image: url("https://raw.githubusercontent.com/SeemiH/SupaSchedule/master/birch3.jpg");
 }
+
+.week1:hover {
+	background-color: rgb(255, 0, 0);
+	box-shadow: 20px 20px 40px rgba(161, 19, 19, 0.7);
+	cursor: crosshair;
+	opacity: 40%;
+}
+
+.week1 {width: 100%;
+	display: block;
+	margin: 0px;
+	border: solid 1px transparent;
+	border-radius: 1px;
+}
