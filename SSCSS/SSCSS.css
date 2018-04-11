@@ -28,3 +28,11 @@ body {
 	border: solid 1px transparent;
 	border-radius: 1px;
 }
+#footer {
+	width: 100%;
+	background-color: black !important;
+	text-align: center;
+	color: white !important;
+	display: inline-block;
+	white-space: nowrap !important;
+}
