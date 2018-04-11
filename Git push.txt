@@ -1,0 +1,12 @@
+KORVAA KAIKKI TIEDOSTOT GITISSÄ
+1.
+git add --all
+2.
+git commit -m "KOMMENTTI"
+3.
+git push -u origin master
+
+
+
+LISÄÄ YHDEN TIEDOSTON
+git add file name
