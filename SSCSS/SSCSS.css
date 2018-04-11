@@ -35,5 +35,5 @@ body {
 	color: white !important;
 	display: inline-block;
 	white-space: nowrap !important;
-	font-weight: bold;
+	font-weight: bold !important;
 }
