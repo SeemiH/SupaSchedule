@@ -12,7 +12,7 @@
 	content: ''!important;
 }
 body {
-  /*background-image: url("https://raw.githubusercontent.com/SeemiH/SupaSchedule/master/birch3.jpg");*/
+background-color: rgba(255, 246, 124, 0.91)!important;
 }
 
 .week1:hover {
@@ -29,11 +29,14 @@ body {
 	border-radius: 1px;
 }
 #footer {
-	width: 100%;
-	background-color: black !important;
+	width: 100% !important;
+	background-color: white !important;
 	text-align: center;
-	color: white !important;
+	color:rgb(108, 108, 108) !important;
 	display: inline-block;
 	white-space: nowrap !important;
-	font-weight: bold !important;
+	font-weight: bold;
+}
+#footer ul li {
+    padding: 0 .5em !important;
 }
