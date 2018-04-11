@@ -1671,8 +1671,8 @@ p {
 			text-decoration: none;
 		}
 
-	strong, b {
-		color: #727a82;
+	strong {
+		color: whitesmoke;
 		font-weight: 700;
 	}
 
