@@ -170,11 +170,13 @@
 
 
     <script>
-        // Tuo funktioon vuoden päivät ja laskee mikä viikko nyt meneillään.
+        // Tuo funktioon vuoden päivät ja laskee mikä viikko nyt meneillään yhedenpäivän millisekuntejen avulla.
         let now = new Date();
 
-        let onejan = new Date(now.getFullYear(), 0, 1);
-        week = Math.ceil((((now - onejan) / 86400000) + onejan.getDay() + 1) / 7);
+        let onejan = new Date(now.getFullYear(), 0, 0);
+        week = Math.ceil((((now - onejan) / 86400000) + onejan.getDay() + -1) / 7);
+        console.log(week);
+
 
          // Lainaa yläpuolen laskusta viikon joka nyt meneillään ja luukun avattavuuden mukaan säätää tyylin for loopilla, joka hakee tyylin <style> osiosta. Div kutsuu kerran onload toiminnolla tämän funktion.
         function lockDown(nbr) {
