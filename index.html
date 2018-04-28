@@ -29,6 +29,7 @@
 </head>
 
 <body>
+    
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
         <div class="w3-bar w3-white w3-wide w3-padding w3-card">
@@ -59,7 +60,7 @@
         <div class="w3-row-padding">
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-display-container">
-                    <img class="week1" src="SSIMG/summer2.jpg" alt="image13" onload="lockDown(this)" onclick="openBox1(this)" id="13">
+                    <img class="week1" src="SSIMG/summer2.jpg" alt="image13" onclick="openBox1(this)" id="13">
                     <div class="w3-display-topleft w3-black w3-padding" id="teksti13"><strong>Viikko 1</strong></div>
                     <div class="w3-display-bottomleft w3-black w3-padding" id="teksti13"><strong>Viikko 69</strong></div>
                 </div>
@@ -168,22 +169,14 @@
         </div>
     </footer>
 
-
     <script>
         // Tuo funktioon vuoden päivät ja laskee mikä viikko nyt meneillään yhedenpäivän millisekuntejen avulla.
         let now = new Date();
-
         let onejan = new Date(now.getFullYear(), 0, 0);
-        week = Math.ceil((((now - onejan) / 86400000) + onejan.getDay() + -1) / 7);
+        week = Math.ceil((((now - onejan) / 86400000) + onejan.getDay() -1) / 7);
+        console.log(onejan);
+        console.log(now);
         console.log(week);
-
-
-         // Lainaa yläpuolen laskusta viikon joka nyt meneillään ja luukun avattavuuden mukaan säätää tyylin for loopilla, joka hakee tyylin <style> osiosta. Div kutsuu kerran onload toiminnolla tämän funktion.
-        function lockDown(nbr) {
-        for(i=24; i>week; i--) {
-         $('#'+ i ).addClass("lockdowns");;
-        }
-        }
 
         // Lainaa yläpuolen laskusta viikon joka nyt meneillään ja if/else valitsee toiminnon viikon id:n mukaan. Div kutsuu onclick toiminnolla tämän funktion.
         function openBox1(nbr) {
@@ -194,6 +187,7 @@
                 alert("Soo soo! Tätä luukkua ei saa vielä avata!")
             }
         }
+
         // Sama funktio kopioituna jokaiselle luukulle.
         function openBox2(nbr) {
             if (week >= nbr.id) {
@@ -302,10 +296,21 @@
                 alert("Soo soo! Tätä luukkua ei saa vielä avata!")
             }
         }
+
     </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+    <script> 
+            // Lainaa viikko laskurista viikon joka nyt meneillään ja luukun avattavuuden mukaan säätää tyylin for loopilla, joka hakee tyylin <style> osiosta. Div kutsuu kerran onload toiminnolla tämän funktion.
+        $(function lockDown(){
+            for(i=24; i>week; i--) {
+            $('#'+ i ).addClass("lockdowns");
+            }
+            });
+    </script>
+
 </body>
 
 </html>
