@@ -20,6 +20,7 @@ background-color: rgba(255, 246, 124, 0.91)!important;
 	box-shadow: 20px 20px 40px rgba(161, 19, 19, 0.7);
 	cursor: crosshair;
 	opacity: 40%;
+	transition: .2s ease-in-out;
 }
 
 .week1 {
