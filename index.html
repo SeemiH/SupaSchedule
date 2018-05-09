@@ -2,314 +2,319 @@
 <html lang="fi">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Pizzeria webpage">
-    <meta name="keywords" content="TIKO, summercalender, Kesäkalenteri">
-    <meta name="author" content="Seemi">
-    <meta name="robots" content="index, follow">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Pizzeria webpage">
+  <meta name="keywords" content="TIKO, summercalender, Kesäkalenteri">
+  <meta name="author" content="Seemi">
+  <meta name="robots" content="index, follow">
 
-    <!--CSS-->
-    <link rel="stylesheet" href="SSCSS/SSCSS.css">
-    <link rel="stylesheet" href="SSCSS/assets/css/main.css">
-    <link rel="stylesheet" href="SSCSS/w3.css">
+  <!--CSS-->
+  <link rel="stylesheet" href="SSCSS/SSCSS.css">
+  <link rel="stylesheet" href="SSCSS/assets/css/main.css">
+  <link rel="stylesheet" href="SSCSS/w3.css">
 
-    <style>
+  <style>
     .lockdowns:hover {
-    cursor: not-allowed;
+      cursor: not-allowed;
     }
+
     .lockdowns {
-    -webkit-filter: grayscale(100%) blur(2px);
-    filter: grayscale(100%) blur(2px);
-    transition: .2s ease-in-out;
+      -webkit-filter: grayscale(100%) blur(2px);
+      filter: grayscale(100%) blur(2px);
+      transition: .2s ease-in-out;
     }
-    </style>
+  </style>
 
 </head>
 
 <body>
-    
-    <!-- Navbar (sit on top) -->
-    <div class="w3-top">
-        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-            <a href="#home" class="w3-bar-item w3-button"><b>TIKO</b> Kesäkalenteri</a>
-            <!-- Float links to the right. Hide them on small screens -->
-            <div class="w3-right w3-hide-small">
-                <a href="#projects" class="w3-bar-item w3-button">Luukut</a>
-            </div>
-        </div>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+      <a href="#home" class="w3-bar-item w3-button"><b>TIKO</b> Kesäkalenteri</a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="#projects" class="w3-bar-item w3-button">Luukut</a>
+      </div>
     </div>
+  </div>
 
-    <!-- Header -->
-    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-        <img class="w3-image" src="SSIMG/summer.jpg" alt="summer2" width="1500" height="800">
-        <div class="w3-display-middle w3-margin-top w3-center">
-            <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>TIKO</b></span> <span class="w3-hide-small w3-text-black">Kesäkalenteri 2018</span></h1>
-        </div>
-    </header>
-    <!-- Page content -->
-    <div class="w3-content w3-padding" style="max-width:1564px">
-        <!-- Project Section -->
-        <div class="w3-container w3-padding-32" id="projects">
-            <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Luukut</h2>
-        </div>
-
-
-        <!-- LUUKUT -->
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <img class="week1" src="SSIMG/summer2.jpg" alt="image13" onclick="openBox1(this)" id="13">
-                    <div class="w3-display-topleft w3-black w3-padding" id="teksti13"><strong>Viikko 1</strong></div>
-                    <div class="w3-display-bottomleft w3-black w3-padding" id="teksti13"><strong>Viikko 69</strong></div>
-                </div>
-            </div>
-        </div>
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <img class="week1" src="SSIMG/summer3.jpg" alt="image14" onclick="openBox2(this)" id="14">
-                    <div class="w3-display-topleft w3-black w3-padding" id="teksti14"><strong>Viikko 2</strong></div>
-                </div>
-            </div>
-        </div>
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <img class="week1" src="SSIMG/summer4.jpg" alt="image15" onclick="openBox3(this)" id="15">
-                    <div class="w3-display-topleft w3-black w3-padding" id="teksti15"><strong>Viikko 3</strong></div>
-                </div>
-            </div>
-        </div>
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <img class="week1" src="SSIMG/summer1.jpg" alt="image16" onclick="openBox4(this)" id="16">
-                    <div class="w3-display-topleft w3-black w3-padding" id="teksti16"><strong>Viikko 4</strong></div>
-                </div>
-            </div>
-        </div>
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <img class="week1" src="SSIMG/summer6.jpg" alt="image17" onclick="openBox5(this)" id="17">
-                    <div class="w3-display-topleft w3-black w3-padding" id="teksti17"><strong>Viikko 5</strong></div>
-                </div>
-            </div>
-        </div>
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <img class="week1" src="SSIMG/summer7.jpg" alt="image18" onclick="openBox6(this)" id="18">
-                    <div class="w3-display-topleft w3-black w3-padding" id="teksti18"><strong>Viikko 6</strong></div>
-                </div>
-            </div>
-        </div>
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <img class="week1" src="SSIMG/summer8.jpg" alt="image19" onclick="openBox7(this)" id="19">
-                    <div class="w3-display-topleft w3-black w3-padding" id="teksti19"><strong>Viikko 7</strong></div>
-                </div>
-            </div>
-        </div>
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <img class="week1" src="SSIMG/summer9.jpg" alt="image20" onclick="openBox8(this)" id="20">
-                    <div class="w3-display-topleft w3-black w3-padding" id="teksti20"><strong>Viikko 8</strong></div>
-                </div>
-            </div>
-        </div>
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <img class="week1" src="SSIMG/summer10.jpg" alt="image21" onclick="openBox9(this)" id="21">
-                    <div class="w3-display-topleft w3-black w3-padding" id="teksti21"><strong>Viikko 9</strong></div>
-                </div>
-            </div>
-        </div>
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <img class="week1" src="SSIMG/summer11.jpg" alt="image22" onclick="openBox10(this)" id="22">
-                    <div class="w3-display-topleft w3-black w3-padding" id="teksti22"><strong>Viikko 10</strong></div>
-                </div>
-            </div>
-        </div>
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <img class="week1" src="SSIMG/summer12.jpg" alt="image23" onclick="openBox11(this)" id="23">
-                    <div class="w3-display-topleft w3-black w3-padding" id="teksti23"><strong>Viikko 11</strong></div>
-                </div>
-            </div>
-        </div>
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <img class="week1" src="SSIMG/summer13.jpg" alt="image24" onclick="openBox12(this)" id="24">
-                    <div class="w3-display-topleft w3-black w3-padding" id="teksti24"><strong>Viikko 12</strong></div>
-                </div>
-            </div>
-        </div>
+  <!-- Header -->
+  <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+    <img class="w3-image" src="SSIMG/summer.jpg" alt="summer2" width="1500" height="800">
+    <div class="w3-display-middle w3-margin-top w3-center">
+      <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>TIKO</b></span> <span class="w3-hide-small w3-text-black">Kesäkalenteri 2018</span></h1>
+    </div>
+  </header>
+  <!-- Page content -->
+  <div class="w3-content w3-padding" style="max-width:1564px">
+    <p>
+      Tämä on tikojen Kesäkalenteri 2018. Esittelemme teille Satun, Seemin, Jonin, Teemun ja Marfan mielestä parhaat tapahtumat kesälomaviikoille. Ensimmäinen luukku aukeaa 21.5. kesäloman alkaessa. Luukut aukeavat aina viikoittain ja kertovat tapahtuman mitä et halua missata. Sivun alalaidast löytyvästä kartasta navigoit itsesi ongelmitta perille ja siinä kerrotaan tapahtumien osoitteet numerojärjestyksessä.
+    </p>
+    <!-- Project Section -->
+    <div class="w3-container w3-padding-32" id="projects">
+      <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Luukut</h2>
     </div>
 
 
-    <footer id="footer">
-        <div class="footer">
-            <ul class="actions">
-                <li>Seemi</li>
-                <li>Satu</li>
-                <li>Joni</li>
-                <li>Teemu</li>
-                <li>Marfa</li>
-            </ul>
+    <!-- LUUKUT -->
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <img class="week1" src="SSIMG/summer2.jpg" alt="image13" onclick="openBox1(this)" onclick="flip()" id="13">
+          <div class="w3-display-topleft w3-black w3-padding" id="teksti13"><strong>Viikko 1</strong></div>
+            </div>
+          </div>
         </div>
-    </footer>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <img class="week1" src="SSIMG/summer3.jpg" alt="image14" onclick="openBox2(this)" id="14">
+          <div class="w3-display-topleft w3-black w3-padding" id="teksti14"><strong>Viikko 2</strong></div>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <img class="week1" src="SSIMG/summer4.jpg" alt="image15" onclick="openBox3(this)" id="15">
+          <div class="w3-display-topleft w3-black w3-padding" id="teksti15"><strong>Viikko 3</strong></div>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <img class="week1" src="SSIMG/summer1.jpg" alt="image16" onclick="openBox4(this)" id="16">
+          <div class="w3-display-topleft w3-black w3-padding" id="teksti16"><strong>Viikko 4</strong></div>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <img class="week1" src="SSIMG/summer6.jpg" alt="image17" onclick="openBox5(this)" id="17">
+          <div class="w3-display-topleft w3-black w3-padding" id="teksti17"><strong>Viikko 5</strong></div>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <img class="week1" src="SSIMG/summer7.jpg" alt="image18" onclick="openBox6(this)" id="18">
+          <div class="w3-display-topleft w3-black w3-padding" id="teksti18"><strong>Viikko 6</strong></div>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <img class="week1" src="SSIMG/summer8.jpg" alt="image19" onclick="openBox7(this)" id="19">
+          <div class="w3-display-topleft w3-black w3-padding" id="teksti19"><strong>Viikko 7</strong></div>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <img class="week1" src="SSIMG/summer9.jpg" alt="image20" onclick="openBox8(this)" id="20">
+          <div class="w3-display-topleft w3-black w3-padding" id="teksti20"><strong>Viikko 8</strong></div>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <img class="week1" src="SSIMG/summer10.jpg" alt="image21" onclick="openBox9(this)" id="21">
+          <div class="w3-display-topleft w3-black w3-padding" id="teksti21"><strong>Viikko 9</strong></div>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <img class="week1" src="SSIMG/summer11.jpg" alt="image22" onclick="openBox10(this)" id="22">
+          <div class="w3-display-topleft w3-black w3-padding" id="teksti22"><strong>Viikko 10</strong></div>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <img class="week1" src="SSIMG/summer12.jpg" alt="image23" onclick="openBox11(this)" id="23">
+          <div class="w3-display-topleft w3-black w3-padding" id="teksti23"><strong>Viikko 11</strong></div>
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <img class="week1" src="SSIMG/summer13.jpg" alt="image24" onclick="openBox12(this)" id="24">
+          <div class="w3-display-topleft w3-black w3-padding" id="teksti24"><strong>Viikko 12</strong></div>
+        </div>
+      </div>
+    </div>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LNk4kM9GskTnqa3AW3yfGSwdVApe6sCy" width="80%" ,="" height="300" frameborder="0" style="border:0;margin-left: 10%; allowfullscreen=""></iframe>
+</div>
+  <footer id="footer">
+    <div class="footer">
+      <ul class="actions">
+        <li>Seemi</li>
+        <li>Satu</li>
+        <li>Joni</li>
+        <li>Teemu</li>
+        <li>Marfa</li>
+      </ul>
+    </div>
+  </footer>
 
-    <script>
-        // Tuo funktioon vuoden päivät ja laskee mikä viikko nyt meneillään yhedenpäivän millisekuntejen avulla.
-        let now = new Date();
-        let onejan = new Date(now.getFullYear(), 0, 0);
-        week = Math.ceil((((now - onejan) / 86400000) + onejan.getDay() -1) / 7);
-        console.log(onejan);
-        console.log(now);
-        console.log(week);
+  <script>
+    // Tuo funktioon vuoden päivät ja laskee mikä viikko nyt meneillään yhedenpäivän millisekuntejen avulla.
+    let now = new Date();
+    let onejan = new Date(now.getFullYear(), 0, 0);
+    week = Math.ceil((((now - onejan) / 86400000) + onejan.getDay() - 1) / 7);
+    console.log(onejan);
+    console.log(now);
+    console.log(week);
 
-        // Lainaa yläpuolen laskusta viikon joka nyt meneillään ja if/else valitsee toiminnon viikon id:n mukaan. Div kutsuu onclick toiminnolla tämän funktion.
-        function openBox1(nbr) {
-            if (week >= nbr.id) {
-                document.getElementById("teksti" + nbr.id).innerHTML = "Käynti Suomenlinnassa";
-                document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/Suomenlinna.jpg";
-            } else {
-                alert("Soo soo! Tätä luukkua ei saa vielä avata!")
-            }
-        }
+    //testi
+    function flip(){
+    document.getElementById("bottomleft").style.visibility = "show";
+}
+    // Lainaa yläpuolen laskusta viikon joka nyt meneillään ja if/else valitsee toiminnon viikon id:n mukaan. Div kutsuu onclick toiminnolla tämän funktion.
+    function openBox1(nbr) {
+      if (week >= nbr.id) {
+        document.getElementById("teksti" + nbr.id).innerHTML = "Käynti Suomenlinnassa";
+        document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/Suomenlinna.jpg";
+      } else {
+        alert("Soo soo! Tätä luukkua ei saa vielä avata!")
+      }
+    }
 
-        // Sama funktio kopioituna jokaiselle luukulle.
-        function openBox2(nbr) {
-            if (week >= nbr.id) {
-                document.getElementById("teksti" + nbr.id).innerHTML = "Kävely Hietalahdessa";
-                document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/hietsu.jpg";
-            } else {
-                alert("Soo soo! Tätä luukkua ei saa vielä avata!")
-            }
-        }
+    // Sama funktio kopioituna jokaiselle luukulle.
+    function openBox2(nbr) {
+      if (week >= nbr.id) {
+        document.getElementById("teksti" + nbr.id).innerHTML = "Kävely Hietalahdessa";
+        document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/hietsu.jpg";
+      } else {
+        alert("Soo soo! Tätä luukkua ei saa vielä avata!")
+      }
+    }
 
-        function openBox3(nbr) {
-            if (week >= nbr.id) {
-                document.getElementById("teksti" + nbr.id).innerHTML = "Kahvit kauppatorilla";
-                document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/kauppatori.jpg";
-            } else {
-                alert("Soo soo! Tätä luukkua ei saa vielä avata!")
-            }
-        }
+    function openBox3(nbr) {
+      if (week >= nbr.id) {
+        document.getElementById("teksti" + nbr.id).innerHTML = "Kahvit kauppatorilla";
+        document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/kauppatori.jpg";
+      } else {
+        alert("Soo soo! Tätä luukkua ei saa vielä avata!")
+      }
+    }
 
-        function openBox4(nbr) {
-            if (week >= nbr.id) {
-                document.getElementById("teksti" + nbr.id).innerHTML = "Uimaan stadionille";
-                document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/uimastadion.jpg";
-            } else {
-                alert("Soo soo! Tätä luukkua ei saa vielä avata!")
-            }
-        }
+    function openBox4(nbr) {
+      if (week >= nbr.id) {
+        document.getElementById("teksti" + nbr.id).innerHTML = "Uimaan stadionille";
+        document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/uimastadion.jpg";
+      } else {
+        alert("Soo soo! Tätä luukkua ei saa vielä avata!")
+      }
+    }
 
-        function openBox5(nbr) {
-            if (week >= nbr.id) {
-                document.getElementById("teksti" + nbr.id).innerHTML = "Löylyyn";
-                document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/löyly.jpg";
-            } else {
-                alert("Soo soo! Tätä luukkua ei saa vielä avata!")
-            }
-        }
+    function openBox5(nbr) {
+      if (week >= nbr.id) {
+        document.getElementById("teksti" + nbr.id).innerHTML = "Löylyyn";
+        document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/löyly.jpg";
+      } else {
+        alert("Soo soo! Tätä luukkua ei saa vielä avata!")
+      }
+    }
 
-        function openBox6(nbr) {
-            if (week >= nbr.id) {
-                document.getElementById("teksti" + nbr.id).innerHTML = "Animecon 2018";
-                document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/animecon.jpg";
-            } else {
-                alert("Soo soo! Tätä luukkua ei saa vielä avata!")
-            }
-        }
+    function openBox6(nbr) {
+      if (week >= nbr.id) {
+        document.getElementById("teksti" + nbr.id).innerHTML = "Animecon 2018";
+        document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/animecon.jpg";
+      } else {
+        alert("Soo soo! Tätä luukkua ei saa vielä avata!")
+      }
+    }
 
-        function openBox6(nbr) {
-            if (week >= nbr.id) {
-                document.getElementById("teksti" + nbr.id).innerHTML = "Serena mökkiviikonloppu";
-                document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/serena.jpg";
-            } else {
-                alert("Soo soo! Tätä luukkua ei saa vielä avata!")
-            }
-        }
+    function openBox6(nbr) {
+      if (week >= nbr.id) {
+        document.getElementById("teksti" + nbr.id).innerHTML = "Serena mökkiviikonloppu";
+        document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/serena.jpg";
+      } else {
+        alert("Soo soo! Tätä luukkua ei saa vielä avata!")
+      }
+    }
 
-        function openBox7(nbr) {
-            if (week >= nbr.id) {
-                document.getElementById("teksti" + nbr.id).innerHTML = "Viron risteily";
-                document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/tallinna.jpg";
-            } else {
-                alert("Soo soo! Tätä luukkua ei saa vielä avata!")
-            }
-        }
+    function openBox7(nbr) {
+      if (week >= nbr.id) {
+        document.getElementById("teksti" + nbr.id).innerHTML = "Viron risteily";
+        document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/tallinna.jpg";
+      } else {
+        alert("Soo soo! Tätä luukkua ei saa vielä avata!")
+      }
+    }
 
-        function openBox8(nbr) {
-            if (week >= nbr.id) {
-                document.getElementById("teksti" + nbr.id).innerHTML = "Kaljamessut";
-                document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/kaljamessut.jpg";
-            } else {
-                alert("Soo soo! Tätä luukkua ei saa vielä avata!")
-            }
-        }
+    function openBox8(nbr) {
+      if (week >= nbr.id) {
+        document.getElementById("teksti" + nbr.id).innerHTML = "Kaljamessut";
+        document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/kaljamessut.jpg";
+      } else {
+        alert("Soo soo! Tätä luukkua ei saa vielä avata!")
+      }
+    }
 
-        function openBox9(nbr) {
-            if (week >= nbr.id) {
-                document.getElementById("teksti" + nbr.id).innerHTML = "Ilmaisfestarit";
-                document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/festarit.jpg";
-            } else {
-                alert("Soo soo! Tätä luukkua ei saa vielä avata!")
-            }
-        }
+    function openBox9(nbr) {
+      if (week >= nbr.id) {
+        document.getElementById("teksti" + nbr.id).innerHTML = "Ilmaisfestarit";
+        document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/festarit.jpg";
+      } else {
+        alert("Soo soo! Tätä luukkua ei saa vielä avata!")
+      }
+    }
 
-        function openBox10(nbr) {
-            if (week >= nbr.id) {
-                document.getElementById("teksti" + nbr.id).innerHTML = "Ompelumessut";
-                document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/ompelu.jpg";
-            } else {
-                alert("Soo soo! Tätä luukkua ei saa vielä avata!")
-            }
-        }
+    function openBox10(nbr) {
+      if (week >= nbr.id) {
+        document.getElementById("teksti" + nbr.id).innerHTML = "Ei rakkautta makkaraan.";
+        document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/testikuva2.jpg";
+      } else {
+        alert("Soo soo! Tätä luukkua ei saa vielä avata!")
+      }
+    }
 
-        function openBox11(nbr) {
-            if (week >= nbr.id) {
-                document.getElementById("teksti" + nbr.id).innerHTML = "Vierailu verkkokaupassa";
-                document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/jätkäsaari.jpg";
-            } else {
-                alert("Soo soo! Tätä luukkua ei saa vielä avata!")
-            }
-        }
+    function openBox11(nbr) {
+      if (week >= nbr.id) {
+        document.getElementById("teksti" + nbr.id).innerHTML = "Käynti verkkokaupassa, uuden tietokoneen osto";
+        document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/jätkäsaari.jpg";
+      } else {
+        alert("Soo soo! Tätä luukkua ei saa vielä avata!")
+      }
+    }
 
-        function openBox12(nbr) {
-            if (week >= nbr.id) {
-                document.getElementById("teksti" + nbr.id).innerHTML = "WKND Festival";
-                document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/festarit.jpg";
-            } else {
-                alert("Soo soo! Tätä luukkua ei saa vielä avata!")
-            }
-        }
+    function openBox12(nbr) {
+      if (week >= nbr.id) {
+        document.getElementById("teksti" + nbr.id).innerHTML = "WKND Festival";
+        document.getElementById(nbr.id).src = "SSIMG/Tapahtumien kuvat/festarit.jpg";
+      } else {
+        alert("Soo soo! Tätä luukkua ei saa vielä avata!")
+      }
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    </script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        
-    <script> 
-            // Lainaa viikko laskurista viikon joka nyt meneillään ja luukun avattavuuden mukaan säätää tyylin for loopilla, joka hakee tyylin <style> osiosta. Div kutsuu kerran onload toiminnolla tämän funktion.
-        $(function lockDown(){
-            for(i=24; i>week; i--) {
-            $('#'+ i ).addClass("lockdowns");
-            }
-            });
-    </script>
+  <script>
+    // Lainaa viikko laskurista viikon joka nyt meneillään ja luukun avattavuuden mukaan säätää tyylin for loopilla, joka hakee tyylin <style> osiosta. Div kutsuu kerran onload toiminnolla tämän funktion.
+    $(function lockDown() {
+      for (i = 24; i > week; i--) {
+        $('#' + i).addClass("lockdowns");
+      }
+    });
+  </script>
 
 </body>
 

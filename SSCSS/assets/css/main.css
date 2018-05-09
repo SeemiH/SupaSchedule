@@ -1829,7 +1829,7 @@ p {
 
 p {
 	background-color: rgba(4, 4, 4, 0.45); border-radius: 5px;
-	margin-right: 4.5%; margin-bottom: 20px;
+	margin-right: 4.5%; margin-bottom: 20px; margin-left: 4%; margin-top: 2%;
 }
 
 	header h2 + p {
